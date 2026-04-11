@@ -1,9 +1,9 @@
+import { Footer } from "@/components/Footer";
 import { GalleryShowcaseSection } from "@/components/GalleryShowcaseSection";
 import { HomeHeroSection } from "@/components/HomeHeroSection";
 import { HowItWorksSection } from "@/components/HowItWorksSection";
-import Testimonials from "@/components/Testimonials";
-import { Footer } from "@/components/Footer";
 import { PricingSection } from "@/components/PricingSection";
+import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
   return (

@@ -19,6 +19,7 @@ export async function countGenerationsSince(clerkUserId: string, since: Date) {
         gte(generations.createdAt, since),
       ),
     );
+
   return Number(row?.c ?? 0);
 }
 

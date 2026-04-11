@@ -3,7 +3,8 @@ import { getUploadAuthParams } from "@imagekit/next/server";
 import { NextResponse } from "next/server";
 
 import * as Sentry from "@sentry/nextjs";
-export async function Get() {
+
+export async function GET() {
   const { userId } = await auth();
 
   if (!userId) {

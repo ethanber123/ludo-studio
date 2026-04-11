@@ -53,7 +53,7 @@ export default function Page() {
           <a
             target="_blank"
             rel="noopener"
-            href="https://personal-vhf.sentry.io/issues/?project=4511190071967744"
+            href="https://codesistency-gs.sentry.io/issues/?project=4511102283284560"
           >
             Issues Page
           </a>
@@ -71,7 +71,9 @@ export default function Page() {
         <button
           type="button"
           onClick={async () => {
-            Sentry.logger.info("User clicked the button, throwing a sample error");
+            Sentry.logger.info(
+              "User clicked the button, throwing a sample error",
+            );
             await Sentry.startSpan(
               {
                 name: "Example Frontend/Backend Span",

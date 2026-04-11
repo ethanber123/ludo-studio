@@ -20,11 +20,9 @@ export function PricingSection() {
             account.
           </p>
         </div>
+
         <div className="w-full rounded-[1.75rem] border border-border/60 bg-card/40 p-4 sm:p-6 lg:p-8">
-          <PricingTable
-            for="user"
-            appearance={clerkPricingAppearance}
-          />
+          <PricingTable for="user" appearance={clerkPricingAppearance} />
         </div>
       </div>
     </section>

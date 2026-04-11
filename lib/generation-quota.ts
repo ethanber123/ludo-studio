@@ -29,6 +29,7 @@ export function getMonthlyGenerationLimit(
   if (has({ plan: BILLING_PLAN_KEYS.pro })) {
     return MONTHLY_GENERATION_LIMITS.pro;
   }
+
   return MONTHLY_GENERATION_LIMITS.free;
 }
 
